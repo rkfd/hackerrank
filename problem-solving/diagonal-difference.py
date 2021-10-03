@@ -1,3 +1,6 @@
+import time
+
+
 def diagonalDifference(arr):
   # code starts here
   n = len(arr)
@@ -20,4 +23,7 @@ input_array = [
 ]
 
 # output
+start = time.time()
 print(f'Diagonal Difference: {diagonalDifference(input_array)}')
+end = time.time()
+print(f'Time Elapsed: {abs(end-start)}')
