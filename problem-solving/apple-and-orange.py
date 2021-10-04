@@ -2,6 +2,7 @@ import time
 
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
+    # code starts here
     apples_on_house = 0
     oranges_on_house = 0
     
@@ -15,6 +16,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     
     print(apples_on_house)
     print(oranges_on_house)
+    # code ends here
 
 
 # input
