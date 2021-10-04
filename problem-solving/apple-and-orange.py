@@ -2,21 +2,21 @@ import time
 
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
-    # code starts here
-    apples_on_house = 0
-    oranges_on_house = 0
-    
-    for d in apples:
-        if s <= a+d <= t:
-            apples_on_house += 1
-    
-    for d in oranges:
-        if s <= b+d <= t:
-            oranges_on_house += 1
-    
-    print(apples_on_house)
-    print(oranges_on_house)
-    # code ends here
+  # code starts here
+  apples_on_house = 0
+  oranges_on_house = 0
+  
+  for d in apples:
+      if s <= a+d <= t:
+          apples_on_house += 1
+  
+  for d in oranges:
+      if s <= b+d <= t:
+          oranges_on_house += 1
+  
+  print(apples_on_house)
+  print(oranges_on_house)
+  # code ends here
 
 
 # input
