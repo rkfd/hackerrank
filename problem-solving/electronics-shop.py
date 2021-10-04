@@ -25,3 +25,5 @@ b = 10
 # output
 start = time.time()
 print(getMoneySpent(keyboards, drives, b))
+end = time.time()
+print(f'Time Elapsed: {abs(end-start)}')
